@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# 💻 Debashrestha Nandi – Personal Portfolio
 
-## Project info
+Welcome to my personal developer portfolio!  
+This site showcases my background, experience, and technical projects, built with a sleek, animated design to reflect my passion for software development and data engineering.
 
-**URL**: https://lovable.dev/projects/622404d4-ab50-4281-b0ab-8565f1acc0f8
+🌐 **Live Demo** (optional):  
+[View Portfolio](https://undisputed-deb.github.io/Portfolio) <!-- Update if hosting with GitHub Pages -->
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📌 Quick Facts
 
-**Use Lovable**
+- 🎓 Computer Science student at CCNY  
+- 🧠 AI + Automation Enthusiast  
+- 💼 Data Engineering Intern @ Thrift Label (Blackstone)  
+- 🚀 Founder of D.S Tutoring Center  
+- 📍 Based in New York City
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/622404d4-ab50-4281-b0ab-8565f1acc0f8) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🔨 Tech Stack
 
-**Use your preferred IDE**
+- **Frontend:** HTML, CSS, JavaScript, Tailwind CSS  
+- **Animations:** Custom JS, Glitch effects, Typewriter text  
+- **Deployment:** GitHub Pages or Local Server via `http-server` / Live Server
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧩 Features
 
-Follow these steps:
+- Glitch-style name animation  
+- Typing-effect rotating job titles  
+- Animated background with floating binary code  
+- Quick Facts card (gradient-styled)  
+- Work experience section with animated gradient underline  
+- Mobile responsive layout  
+- Scroll-down mouse animation  
+- View Projects + Contact Me buttons with hover effects
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🚀 Getting Started (Run Locally)
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+# Clone the repository
+git clone https://github.com/undisputed-deb/Portfolio.git
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+# Navigate into the project directory
+cd Portfolio
 
-**Edit a file directly in GitHub**
+# If using http-server (must install once globally)
+npm install -g http-server
+http-server
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/622404d4-ab50-4281-b0ab-8565f1acc0f8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
