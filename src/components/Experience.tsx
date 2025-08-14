@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Experience = () => {
@@ -8,11 +7,36 @@ const Experience = () => {
       company: "Thrift Label (Blackstone)",
       period: "June 2025 – August 2025",
       highlights: [
-        "Built and maintained scalable data pipelines and web scrapers using Python, Scrapy, and Playwright, processing over 10,000 product listings daily",
-        "Optimized backend infrastructure to boost performance by 25%, and contributed to UI modules using React and JavaScript",
-        "Increased product categorization accuracy by 20% through efficient data cleaning and transformation logic",
-        "Contributed across the full data flow — from extraction to transformation to insight"
-      ]
+        "Built custom web scrapers for e-commerce data extraction, automated data cleaning processes, and deployed scalable pipelines with CI/CD workflows—transforming raw web data into business-ready insights",
+        "Developed 15+ Scrapy spiders processing 10K+ product listings daily, accelerating backend performance by 25%",
+        "Built automated data cleaning workflows reducing inconsistencies by 85% and ensuring 99.7% data accuracy",
+        "Restructured JSON architecture cutting backend-to-frontend latency by 35% for 10K+ daily users",
+        "Integrated PMWeb dashboards eliminating 16 hours/week manual reporting for 3 cross-functional teams",
+        "Implemented PyTest/Selenium CI/CD workflows achieving 30% improvement in defect detection rates"
+      ],
+      techStack: {
+        "Languages & Core Technologies": [
+          "Python", "SQL", "JavaScript/TypeScript"
+        ],
+        "Web Scraping & Data Extraction": [
+          "Scrapy (custom spiders)", "BeautifulSoup", "Requests", "Selenium", "Regular Expressions (Regex)", "Playwright"
+        ],
+        "Data Processing & Analysis": [
+          "Pandas", "NumPy", "JSON"
+        ],
+        "Testing & Quality Assurance": [
+          "PyTest", "Selenium WebDriver"
+        ],
+        "Cloud & Database": [
+          "Google Cloud Platform", "MongoDB Atlas", "Algolia"
+        ],
+        "DevOps & Integration": [
+          "Git/GitHub", "CI/CD Pipelines", "PMWeb"
+        ],
+        "Data Formats & Storage": [
+          "JSON", "CSV"
+        ]
+      }
     },
     {
       title: "Founder & CEO",
@@ -49,7 +73,8 @@ const Experience = () => {
                 </div>
                 <span className="text-gray-400 text-lg mt-2 md:mt-0">{exp.period}</span>
               </div>
-              <ul className="space-y-3">
+              
+              <ul className="space-y-3 mb-6">
                 {exp.highlights.map((highlight, idx) => (
                   <li key={idx} className="text-gray-300 flex items-start">
                     <span className="text-cyan-400 mr-3 mt-1">▸</span>
@@ -57,6 +82,30 @@ const Experience = () => {
                   </li>
                 ))}
               </ul>
+
+              {/* Tech Stack Section */}
+              {exp.techStack && (
+                <div className="mt-6 pt-6 border-t border-gray-700">
+                  <h4 className="text-lg font-semibold text-cyan-400 mb-4">Tech Stack & Tools</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {Object.entries(exp.techStack).map(([category, tools]) => (
+                      <div key={category} className="bg-gray-900/30 rounded-lg p-4">
+                        <h5 className="text-sm font-medium text-purple-400 mb-2">{category}</h5>
+                        <div className="flex flex-wrap gap-1">
+                          {tools.map((tool, toolIdx) => (
+                            <span
+                              key={toolIdx}
+                              className="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded-md"
+                            >
+                              {tool}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
             </div>
           ))}
         </div>

@@ -1,92 +1,141 @@
-
 import React from 'react';
 
 const Projects = () => {
   const projects = [
     {
+      title: "AI Meeting Notes Automation",
+      githubUrl: "https://github.com/undisputed-deb/AI-Meeting-Notes",
+      description: "Increased team productivity by 40% by engineering a full-stack dashboard that transcribes audio and uses Google Gemini to generate executive summaries and sentiment analysis, converting raw conversations into actionable intelligence.",
+      tech: ["Python", "React", "Google Gemini AI", "MongoDB", "TypeScript"],
+      features: [
+        "40% increase in team productivity",
+        "95% reduction in time-to-share insights", 
+        "99.9% data reliability with MongoDB Atlas",
+        "One-click PDF report generation",
+        "Real-time sentiment analysis integration"
+      ],
+      metrics: "40% productivity boost • 95% faster insights"
+    },
+    {
+      title: "D.S Tutoring Center Exam App", 
+      githubUrl: "https://github.com/undisputed-deb/DS-Tutoring-Exam-App",
+      description: "Decreased administrative overhead by 90% by developing a secure, mobile-first web app that automates quiz generation, real-time grading, and result notifications via email.",
+      tech: ["React", "TypeScript", "Flask", "Tailwind CSS"],
+      features: [
+        "90% reduction in administrative overhead",
+        "40% boost in student engagement", 
+        "70% faster content creation process",
+        "Custom rich text editor for educators",
+        "Gamified testing with countdown timers"
+      ],
+      metrics: "90% admin time saved • 40% engagement boost"
+    },
+    {
       title: "AI Resume Analyzer",
-      description: "Achieved 95% accuracy in resume evaluation with NLP-based keyword scanning and ATS compatibility scoring. Reduced recruiter screening time by 60% with an animated dashboard featuring bounce-in scorecards and tailored feedback.",
-      tech: ["Flask", "Python", "Google Gemini AI", "Bootstrap", "jQuery", "NLP"],
+      githubUrl: "https://github.com/undisputed-deb/AI-Resume-Analyzer",
+      description: "Optimized candidate evaluation by achieving 95% accuracy in resume analysis using advanced NLP algorithms for ATS compatibility and keyword matching.",
+      tech: ["Flask", "Python", "NLP", "Google Gemini AI", "Bootstrap", "jQuery"],
       features: [
         "95% accuracy in resume evaluation",
         "60% reduction in recruiter screening time",
-        "Animated dashboard with bounce-in effects",
-        "ATS compatibility scoring",
-        "Tailored feedback and enhancement tips"
-      ]
+        "35% improvement in candidate match quality", 
+        "Dynamic Flask dashboard with visual scoring",
+        "Personalized keyword suggestions"
+      ],
+      metrics: "95% accuracy • 60% faster screening"
     },
     {
-      title: "AI Meeting Notes Automation",
-      description: "Built an automation tool that transcribes audio meetings and extracts action items using Gemini AI. Automates 85% of manual meeting documentation tasks with 92% accuracy across 50+ hours of audio.",
-      tech: ["Python", "Google Gemini AI", "MongoDB"],
+      title: "Hustle Hubbub - Community Forum",
+      githubUrl: "https://github.com/undisputed-deb/Hustle-Hubbub",
+      description: "Increased user engagement by 40% by developing a Next.js/Supabase community forum with 13+ features including post creation/editing, comments, upvotes, search/sort, tagging, responsive dark-mode UI, and real-time updates.",
+      tech: ["TypeScript", "Next.js", "Supabase", "Tailwind CSS"],
       features: [
-        "85% automation of manual tasks",
-        "92% accuracy across 50+ hours of audio",
-        "Sentiment analysis integration",
-        "Intelligent summary generation",
-        "Action-item extraction"
-      ]
-    },
-    {
-      title: "D.S Tutoring Center Exam App",
-      description: "Full-featured platform delivering custom quizzes to students. Built with rich text editor, countdown timer with auto-submit, real-time score feedback, and automatic email results. Reduces admin time by 90%.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "Flask"],
-      features: [
-        "90% reduction in admin time",
-        "40% increase in student engagement",
-        "Rich text editor for teachers",
-        "Real-time score feedback",
-        "Excel-compatible result storage"
-      ]
+        "40% increase in user engagement",
+        "13+ comprehensive features built",
+        "Real-time updates and collaboration",
+        "Responsive dark-mode interface",
+        "Advanced search and tagging system"
+      ],
+      metrics: "40% engagement boost • 13+ features"
     }
   ];
 
   return (
-    <section id="projects" className="py-20 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-16 animate-bounce">
-          <span className="bg-gradient-to-r from-cyan-400 to-purple-600 bg-clip-text text-transparent">
+    <section id="projects" className="py-20 px-4 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-5xl font-bold text-center mb-16">
+          <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-pulse">
             Featured Projects
           </span>
         </h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-gray-800/60 to-gray-900/60 rounded-xl p-6 border border-gray-700 hover:border-cyan-500/50 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/20 animate-fade-in group"
-              style={{ animationDelay: `${index * 0.2}s` }}
+              className="bg-gradient-to-br from-gray-800/70 to-gray-900/70 rounded-2xl p-8 border border-gray-700 hover:border-cyan-400/60 transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl hover:shadow-cyan-500/20 backdrop-blur-sm group relative overflow-hidden"
+              style={{ animationDelay: `${index * 0.15}s` }}
             >
-              <h3 className="text-2xl font-bold text-cyan-400 mb-4 group-hover:text-cyan-300 transition-colors">
-                {project.title}
-              </h3>
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                {project.description}
-              </p>
-              <div className="mb-6">
-                <h4 className="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wide">
-                  Key Features
-                </h4>
-                <ul className="space-y-2">
-                  {project.features.map((feature, idx) => (
-                    <li key={idx} className="text-sm text-gray-300 flex items-start">
-                      <span className="text-cyan-400 mr-2 mt-1">•</span>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {project.tech.map((tech, idx) => (
-                  <span
-                    key={idx}
-                    className="px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-sm border border-cyan-500/30 hover:bg-cyan-500/30 transition-colors"
+              {/* Animated background gradient */}
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              
+              <div className="relative z-10">
+                <div className="flex items-start justify-between mb-4">
+                  <a 
+                    href={project.githubUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors hover:underline cursor-pointer"
                   >
-                    {tech}
-                  </span>
-                ))}
+                    {project.title}
+                  </a>
+                  <div className="text-xs font-semibold bg-gradient-to-r from-cyan-500 to-purple-500 bg-clip-text text-transparent">
+                    {project.metrics}
+                  </div>
+                </div>
+                
+                <p className="text-gray-300 mb-6 leading-relaxed text-sm">
+                  {project.description}
+                </p>
+                
+                <div className="mb-6">
+                  <h4 className="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wider">
+                    Key Impact & Features
+                  </h4>
+                  <div className="grid gap-2">
+                    {project.features.map((feature, idx) => (
+                      <div key={idx} className="text-sm text-gray-300 flex items-start group/feature">
+                        <span className="text-cyan-400 mr-3 mt-1 group-hover/feature:text-cyan-300 transition-colors">▶</span>
+                        <span className="group-hover/feature:text-white transition-colors">{feature}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                
+                <div className="flex flex-wrap gap-2">
+                  {project.tech.map((tech, idx) => (
+                    <span
+                      key={idx}
+                      className="px-4 py-2 bg-gradient-to-r from-cyan-500/15 to-purple-500/15 text-cyan-300 rounded-full text-sm border border-cyan-500/30 hover:border-cyan-400/60 hover:bg-gradient-to-r hover:from-cyan-500/25 hover:to-purple-500/25 transition-all duration-300 transform hover:scale-105"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
               </div>
+              
+              {/* Subtle corner accent */}
+              <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-cyan-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
           ))}
+        </div>
+        
+        {/* Call to action */}
+        <div className="text-center mt-16">
+          <div className="inline-flex items-center space-x-2 text-gray-400">
+            <span className="w-8 h-px bg-gradient-to-r from-transparent to-cyan-500"></span>
+            <span className="text-sm font-medium">View more on GitHub</span>
+            <span className="w-8 h-px bg-gradient-to-l from-transparent to-purple-500"></span>
+          </div>
         </div>
       </div>
     </section>
