@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { ArrowDown } from 'lucide-react';
 
@@ -9,9 +8,10 @@ const Hero = () => {
 
   const titles = [
     'Computer Science Student at CCNY',
+    'Web Accessibility & Digital Systems Intern @Baxter St. Camera Club',
     'Data Engineering Intern @Thrift Label(Blackstone)',
     'Software Developer',
-    'Founder & CEO @ D.S Tutoring Center'
+    'Chief Technical Officer @ D.S Tutoring Center'
   ];
 
   useEffect(() => {

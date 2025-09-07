@@ -3,32 +3,19 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: "AI Meeting Notes Automation",
-      githubUrl: "https://github.com/undisputed-deb/AI-Meeting-Notes",
-      description: "Increased team productivity by 40% by engineering a full-stack dashboard that transcribes audio and uses Google Gemini to generate executive summaries and sentiment analysis, converting raw conversations into actionable intelligence.",
-      tech: ["Python", "React", "Google Gemini AI", "MongoDB", "TypeScript"],
+      title: "IceBrAIker - AI RAG Project",
+      githubUrl: "https://deb-icebraiker.netlify.app/",
+      description: "Built Retrieval-Augmented Generation pipeline using Gemini + Tavily + Supabase/pgvector, improving context retrieval accuracy by 70% and reducing generic outputs from 80% to 20% through tone-aware AI icebreaker generation.",
+      tech: ["React", "TypeScript", "Supabase", "Gemini AI", "Tavily API", "Tailwind CSS"],
       features: [
-        "40% increase in team productivity",
-        "95% reduction in time-to-share insights", 
-        "99.9% data reliability with MongoDB Atlas",
-        "One-click PDF report generation",
-        "Real-time sentiment analysis integration"
+        "70% improvement in context retrieval accuracy",
+        "80% reduction in generic AI outputs", 
+        "45% increase in user engagement",
+        "40% reduction in query latency",
+        "Real-time tone-aware generation",
+        "Supabase Edge Functions integration"
       ],
-      metrics: "40% productivity boost • 95% faster insights"
-    },
-    {
-      title: "D.S Tutoring Center Exam App", 
-      githubUrl: "https://github.com/undisputed-deb/DS-Tutoring-Exam-App",
-      description: "Decreased administrative overhead by 90% by developing a secure, mobile-first web app that automates quiz generation, real-time grading, and result notifications via email.",
-      tech: ["React", "TypeScript", "Flask", "Tailwind CSS"],
-      features: [
-        "90% reduction in administrative overhead",
-        "40% boost in student engagement", 
-        "70% faster content creation process",
-        "Custom rich text editor for educators",
-        "Gamified testing with countdown timers"
-      ],
-      metrics: "90% admin time saved • 40% engagement boost"
+      metrics: "70% accuracy boost • 80% better personalization"
     },
     {
       title: "AI Resume Analyzer",
@@ -45,18 +32,33 @@ const Projects = () => {
       metrics: "95% accuracy • 60% faster screening"
     },
     {
-      title: "Hustle Hubbub - Community Forum",
-      githubUrl: "https://github.com/undisputed-deb/Hustle-Hubbub",
-      description: "Increased user engagement by 40% by developing a Next.js/Supabase community forum with 13+ features including post creation/editing, comments, upvotes, search/sort, tagging, responsive dark-mode UI, and real-time updates.",
-      tech: ["TypeScript", "Next.js", "Supabase", "Tailwind CSS"],
+      title: "AI Meeting Notes Automation",
+      githubUrl: "https://github.com/undisputed-deb/AI-Meeting-Notes",
+      description: "Increased team productivity by 40% by engineering a full-stack dashboard that transcribes audio and uses Google Gemini to generate executive summaries and sentiment analysis, converting raw conversations into actionable intelligence.",
+      tech: ["Python", "React", "Google Gemini AI", "MongoDB", "TypeScript"],
       features: [
-        "40% increase in user engagement",
-        "13+ comprehensive features built",
-        "Real-time updates and collaboration",
-        "Responsive dark-mode interface",
-        "Advanced search and tagging system"
+        "40% increase in team productivity",
+        "95% reduction in time-to-share insights", 
+        "99.9% data reliability with MongoDB Atlas",
+        "One-click PDF report generation",
+        "Real-time sentiment analysis integration"
       ],
-      metrics: "40% engagement boost • 13+ features"
+      metrics: "40% productivity boost • 95% faster insights"
+    },
+    {
+      title: "Collaborative Design Studio",
+      githubUrl: "https://sketch-together.netlify.app/",
+      description: "Engineered 60fps canvas rendering with optimized drawing algorithms and AI magic studio integration, achieving 3x performance improvement over standard implementations with real-time collaboration via WebSockets.",
+      tech: ["React", "TypeScript", "Next.js", "Canvas API", "WebSockets", "AI Integration"],
+      features: [
+        "60fps canvas rendering performance",
+        "3x faster than standard implementations", 
+        "85% increase in user retention",
+        "Zero data loss with auto-save",
+        "Real-time collaborative editing",
+        "AI-powered magic studio tools"
+      ],
+      metrics: "3x performance boost • 85% retention increase"
     }
   ];
 

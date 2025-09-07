@@ -59,15 +59,15 @@ const Experience = () => {
       title: "Web Accessibility & Digital Systems Intern",
       company: "Baxter St. Camera Club",
       location: "Manhattan, NY", 
-      period: "September 2025 – Present",
+      period: "August 2025 – Present",
       highlights: [
-        "Developed web accessibility compliance systems by implementing WCAG 2.1 AA standards and creating automated alt-text generation for 500+ digital gallery assets",
-        "Built content management workflows for multimedia archives, implementing video transcription APIs and digital asset organization using database normalization",
-        "Engineered structured CRM databases for alumni tracking and partnership management, improving data retrieval efficiency by 60%",
-        "Integrated mobile application features through Bloomberg Connects platform APIs, enhancing user engagement metrics by 45%",
-        "Created digital exhibition platforms including responsive online viewing rooms with cross-browser compatibility and mobile optimization",
-        "Designed automated documentation systems for event management using workflow automation tools, reducing manual processing time by 70%",
-        "Developed cross-platform content distribution strategies implementing RESTful APIs for multi-channel arts programming delivery"
+        "Implement WCAG 2.1 AA compliance standards and create automated alt-text generation for 500+ digital gallery assets, improving accessibility coverage by 85%",
+        "Build content management workflows for multimedia archives, implementing video transcription APIs and digital asset organization using database normalization",
+        "Engineer structured CRM databases for alumni tracking and partnership management, improving data retrieval efficiency by 60%",
+        "Integrate mobile application features through Bloomberg Connects platform APIs, enhancing user engagement metrics by 45%",
+        "Create digital exhibition platforms including responsive online viewing rooms with cross-browser compatibility and mobile optimization",
+        "Design automated documentation systems for event management using workflow automation tools, reducing manual processing time by 70%",
+        "Develop cross-platform content distribution strategies implementing RESTful APIs for multi-channel arts programming delivery"
       ],
       techStack: {
         "Web Development": [
@@ -91,22 +91,25 @@ const Experience = () => {
       }
     },
     {
-      title: "Founder & CEO",
+      title: "Chief Technical Officer",
       company: "D.S Tutoring Center",
       location: "Bronx, NY",
-      period: "December 2023 – Present",
+      period: "March 2024 – Present",
       highlights: [
-        "Increased student test scores by an average of 180 points by delivering personalized SAT, ACT, and AP Math instruction to 100+ students, achieving a 95% pass rate",
-        "Generated $25K+ revenue in 9 months by developing curriculum frameworks and building a client base through referrals, achieving an 85% student retention rate",
-        "Oversaw 7 teachers and staff while tracking progress for 120+ students using automated Excel dashboards",
-        "Developed a secure, mobile-first web application that automates quiz generation, real-time grading, and result notifications, reducing administrative overhead by 90%"
+        "Build automated grading dashboards and live progress tracking for 120+ students, reducing administrative workload by 80%",
+        "Develop exam management systems and student portals for 7 staff members, streamlining registration, scheduling, and results communication",
+        "Scale operations with standardized curriculum frameworks and scheduling systems, generating $25K+ revenue in 18 months while maintaining a 95% pass rate",
+        "Expand tutoring services to 100+ active students across SAT, Regents, and AP subjects while training 5 instructors on digital tools, achieving 60% enrollment growth and 30% satisfaction improvement"
       ],
       techStack: {
         "Full-Stack Development": [
-          "React", "TypeScript", "Flask", "Tailwind CSS"
+          "React", "TypeScript", "Flask", "Python"
         ],
         "Business Analytics": [
           "Excel Automation", "Dashboard Creation", "Data Visualization"
+        ],
+        "Database & Backend": [
+          "MongoDB", "API Development", "Real-time Systems"
         ],
         "Project Management": [
           "Team Leadership", "Process Optimization", "Client Relations"
