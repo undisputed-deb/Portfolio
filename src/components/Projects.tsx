@@ -73,8 +73,8 @@ const Projects = () => {
       metrics: "95% accuracy • 60% faster screening"
     },
     {
-      title: "Hustle Hubbub - Community Forum",
-      githubUrl: "https://github.com/undisputed-deb/Hustle-Hubbub",
+      title: "Collaborative Design Studio",
+      githubUrl: "https://github.com/undisputed-deb/Collaborative-Design-Studio",
       description: "Increased user engagement by 40% by developing a Next.js/Supabase community forum with 13+ features including post creation/editing, comments, upvotes, search/sort, tagging, responsive dark-mode UI, and real-time updates.",
       tech: ["TypeScript", "Next.js", "Supabase", "Tailwind CSS"],
       features: [

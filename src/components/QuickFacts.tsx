@@ -6,7 +6,7 @@ const QuickFacts = () => {
     {
       icon: <GraduationCap size={24} />,
       text: "Computer Science @ CCNY",
-      subtext: "May 2028 Graduate"
+      subtext: "Full-Stack Developer"
     },
     {
       icon: <Code size={24} />,
