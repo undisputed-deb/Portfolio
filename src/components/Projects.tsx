@@ -18,7 +18,7 @@ const Projects = () => {
     },
     {
       title: "IceBrAIker - AI RAG Project",
-      githubUrl: "https://github.com/undisputed-deb/IceBrAIker",
+      githubUrl: "https://deb-icebraiker.netlify.app/",
       description: "Built Retrieval-Augmented Generation pipeline achieving 70% improved context retrieval accuracy using Gemini, Tavily API, and Supabase/pgvector for tone-aware AI icebreaker generation.",
       tech: ["React", "TypeScript", "Supabase", "Gemini", "Tavily API", "pgvector"],
       features: [
@@ -46,7 +46,7 @@ const Projects = () => {
     },
     {
       title: "D.S Tutoring Center Exam App", 
-      githubUrl: "https://github.com/undisputed-deb/DS-Tutoring-Exam-App",
+      githubUrl: "https://github.com/undisputed-deb/D.S-Tutoring-Exam-App",
       description: "Decreased administrative overhead by 90% by developing a secure, mobile-first web app that automates quiz generation, real-time grading, and result notifications via email.",
       tech: ["React", "TypeScript", "Flask", "Tailwind CSS"],
       features: [
@@ -74,7 +74,7 @@ const Projects = () => {
     },
     {
       title: "Collaborative Design Studio",
-      githubUrl: "https://github.com/undisputed-deb/Collaborative-Design-Studio",
+      githubUrl: "https://sketch-together.netlify.app/",
       description: "Increased user engagement by 40% by developing a Next.js/Supabase community forum with 13+ features including post creation/editing, comments, upvotes, search/sort, tagging, responsive dark-mode UI, and real-time updates.",
       tech: ["TypeScript", "Next.js", "Supabase", "Tailwind CSS"],
       features: [
