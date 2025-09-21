@@ -3,33 +3,18 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: "IceBrAIker - AI RAG Project",
-      githubUrl: "https://deb-icebraiker.netlify.app/",
-      description: "Built Retrieval-Augmented Generation pipeline using Gemini + Tavily + Supabase/pgvector, improving context retrieval accuracy by 70% and reducing generic outputs from 80% to 20% through tone-aware AI icebreaker generation.",
-      tech: ["React", "TypeScript", "Supabase", "Gemini AI", "Tavily API", "Tailwind CSS"],
+      title: "Credit Card Fraud Detection System",
+      githubUrl: "https://github.com/undisputed-deb/Credit-Card-Fraud-Detection-System",
+      description: "Built a comprehensive machine learning system achieving 99.7% accuracy in detecting fraudulent credit card transactions using ensemble methods and advanced algorithms across 284,807 transactions.",
+      tech: ["Python", "scikit-learn", "XGBoost", "SMOTE", "Pandas", "Matplotlib"],
       features: [
-        "70% improvement in context retrieval accuracy",
-        "80% reduction in generic AI outputs", 
-        "45% increase in user engagement",
-        "40% reduction in query latency",
-        "Real-time tone-aware generation",
-        "Supabase Edge Functions integration"
+        "99.7% accuracy across 9 ML models including Random Forest, XGBoost, and Gradient Boosting with ensemble voting classifier",
+        "97% ROC-AUC score achieving 91.8% fraud detection rate while maintaining only 2.4% false positive rate on imbalanced dataset",
+        "Implemented 9 different algorithms with SMOTE balancing, cross-validation, and hyperparameter optimization for robust performance",
+        "Real-time prediction capability processing transactions in under 2 seconds with automated model monitoring and drift detection",
+        "Comprehensive business impact analysis showing $6,570 savings per 100 fraud attempts with detailed cost-benefit calculations"
       ],
-      metrics: "70% accuracy boost • 80% better personalization"
-    },
-    {
-      title: "AI Resume Analyzer",
-      githubUrl: "https://github.com/undisputed-deb/AI-Resume-Analyzer",
-      description: "Optimized candidate evaluation by achieving 95% accuracy in resume analysis using advanced NLP algorithms for ATS compatibility and keyword matching.",
-      tech: ["Flask", "Python", "NLP", "Google Gemini AI", "Bootstrap", "jQuery"],
-      features: [
-        "95% accuracy in resume evaluation",
-        "60% reduction in recruiter screening time",
-        "35% improvement in candidate match quality", 
-        "Dynamic Flask dashboard with visual scoring",
-        "Personalized keyword suggestions"
-      ],
-      metrics: "95% accuracy • 60% faster screening"
+      metrics: "99.7% accuracy • 91% detection rate"
     },
     {
       title: "AI Meeting Notes Automation",
@@ -37,28 +22,55 @@ const Projects = () => {
       description: "Increased team productivity by 40% by engineering a full-stack dashboard that transcribes audio and uses Google Gemini to generate executive summaries and sentiment analysis, converting raw conversations into actionable intelligence.",
       tech: ["Python", "React", "Google Gemini AI", "MongoDB", "TypeScript"],
       features: [
-        "40% increase in team productivity",
-        "95% reduction in time-to-share insights", 
-        "99.9% data reliability with MongoDB Atlas",
-        "One-click PDF report generation",
-        "Real-time sentiment analysis integration"
+        "40% increase in team productivity by automating 85% of manual meeting documentation tasks with 92% accuracy across 50+ hours of audio",
+        "95% reduction in time-to-share insights through architected responsive React/TypeScript frontend with one-click PDF report download feature", 
+        "99.9% data reliability by implementing scalable MongoDB Atlas schema to securely store and index meeting transcripts, summaries, and sentiment scores",
+        "Advanced sentiment analysis integration with intelligent summary generation extracting key action items and decision points automatically",
+        "Real-time transcription processing with automated speaker identification and timestamp synchronization for enhanced meeting tracking"
       ],
       metrics: "40% productivity boost • 95% faster insights"
     },
     {
-      title: "Collaborative Design Studio",
-      githubUrl: "https://sketch-together.netlify.app/",
-      description: "Engineered 60fps canvas rendering with optimized drawing algorithms and AI magic studio integration, achieving 3x performance improvement over standard implementations with real-time collaboration via WebSockets.",
-      tech: ["React", "TypeScript", "Next.js", "Canvas API", "WebSockets", "AI Integration"],
+      title: "D.S Tutoring Center Exam App", 
+      githubUrl: "https://github.com/undisputed-deb/DS-Tutoring-Exam-App",
+      description: "Decreased administrative overhead by 90% by developing a secure, mobile-first web app that automates quiz generation, real-time grading, and result notifications via email.",
+      tech: ["React", "TypeScript", "Flask", "Tailwind CSS"],
       features: [
-        "60fps canvas rendering performance",
-        "3x faster than standard implementations", 
-        "85% increase in user retention",
-        "Zero data loss with auto-save",
-        "Real-time collaborative editing",
-        "AI-powered magic studio tools"
+        "90% reduction in administrative overhead by developing secure mobile-first web app automating quiz generation, real-time grading, and email notifications",
+        "40% boost in student engagement by implementing rich text quiz interface with countdown timer, auto-submission, and gamified testing environment", 
+        "70% faster content creation process through custom rich text editor in React enabling rapid creation and formatting of diverse quiz questions",
+        "Streamlined Excel-compatible result storage with automated email delivery system reducing manual grading time from hours to minutes",
+        "Advanced security features with user authentication, session management, and encrypted data transmission for student privacy protection"
       ],
-      metrics: "3x performance boost • 85% retention increase"
+      metrics: "90% admin time saved • 40% engagement boost"
+    },
+    {
+      title: "AI Resume Analyzer",
+      githubUrl: "https://github.com/undisputed-deb/AI-Resume-Analyzer",
+      description: "Optimized candidate evaluation by achieving 95% accuracy in resume analysis using advanced NLP algorithms for ATS compatibility and keyword matching.",
+      tech: ["Flask", "Python", "NLP", "Google Gemini AI", "Bootstrap", "jQuery"],
+      features: [
+        "95% accuracy in resume evaluation using advanced NLP algorithms for ATS compatibility scoring and keyword matching analysis",
+        "60% reduction in recruiter screening time by designing dynamic Flask dashboard providing instant visual scoring with tailored feedback",
+        "35% improvement in candidate match quality by integrating personalized keyword suggestions to better align resumes with target roles", 
+        "Automated ATS compatibility assessment with detailed scoring breakdown identifying formatting issues and optimization opportunities",
+        "Interactive dashboard with bounce-in scorecards, real-time analysis updates, and comprehensive enhancement recommendations for applicants"
+      ],
+      metrics: "95% accuracy • 60% faster screening"
+    },
+    {
+      title: "Hustle Hubbub - Community Forum",
+      githubUrl: "https://github.com/undisputed-deb/Hustle-Hubbub",
+      description: "Increased user engagement by 40% by developing a Next.js/Supabase community forum with 13+ features including post creation/editing, comments, upvotes, search/sort, tagging, responsive dark-mode UI, and real-time updates.",
+      tech: ["TypeScript", "Next.js", "Supabase", "Tailwind CSS"],
+      features: [
+        "40% increase in user engagement by developing Next.js/Supabase community forum with 13+ comprehensive features for startup collaboration",
+        "Real-time updates and seamless collaboration through post creation/editing, threaded comments, upvote system, and live notification system",
+        "Advanced search and tagging system with sorting capabilities, category filters, and trending content discovery for enhanced user experience",
+        "Responsive dark-mode interface with mobile-optimized design ensuring consistent experience across all devices and screen sizes",
+        "Scalable architecture with Supabase backend providing real-time database synchronization, user authentication, and secure data management"
+      ],
+      metrics: "40% engagement boost • 13+ features"
     }
   ];
 
