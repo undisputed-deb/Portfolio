@@ -6,21 +6,21 @@ const QuickFacts = () => {
     {
       icon: <GraduationCap size={24} />,
       text: "Computer Science @ CCNY",
-      subtext: "4.0 GPA • Fall 2028"
+      subtext: "May 2028 Graduate"
     },
     {
       icon: <Code size={24} />,
-      text: "AI + Automation Enthusiast", 
+      text: "AI + Machine Learning Engineer", 
       subtext: "Python • React • TypeScript"
     },
     {
       icon: <Briefcase size={24} />,
-      text: "Data Engineering Intern",
-      subtext: "Thrift Label (Blackstone)"
+      text: "Web Accessibility Intern",
+      subtext: "Baxter St. Camera Club"
     },
     {
       icon: <Trophy size={24} />,
-      text: "Founder & CEO",
+      text: "Chief Technical Officer",
       subtext: "D.S Tutoring Center"
     },
     {
@@ -31,7 +31,7 @@ const QuickFacts = () => {
     {
       icon: <Star size={24} />,
       text: "$25K+ Revenue Generated",
-      subtext: "100+ Students Tutored"
+      subtext: "120+ Students Tutored"
     }
   ];
 

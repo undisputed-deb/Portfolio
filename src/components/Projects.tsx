@@ -17,6 +17,20 @@ const Projects = () => {
       metrics: "99.7% accuracy • 91% detection rate"
     },
     {
+      title: "IceBrAIker - AI RAG Project",
+      githubUrl: "https://github.com/undisputed-deb/IceBrAIker",
+      description: "Built Retrieval-Augmented Generation pipeline achieving 70% improved context retrieval accuracy using Gemini, Tavily API, and Supabase/pgvector for tone-aware AI icebreaker generation.",
+      tech: ["React", "TypeScript", "Supabase", "Gemini", "Tavily API", "pgvector"],
+      features: [
+        "70% improved context retrieval accuracy through Retrieval-Augmented Generation pipeline integrating Gemini AI with Tavily search API",
+        "80% reduction in generic outputs by implementing tone-aware AI icebreaker generation with advanced LLM optimization techniques",
+        "45% increase in user engagement through React + Tailwind UI featuring animated backgrounds and responsive design patterns",
+        "40% query latency reduction by deploying Supabase Edge Functions with optimized RESTful API integration and pgvector embeddings",
+        "Scalable vector database architecture supporting real-time semantic search and contextual conversation starter recommendations"
+      ],
+      metrics: "70% retrieval accuracy • 80% less generic outputs"
+    },
+    {
       title: "AI Meeting Notes Automation",
       githubUrl: "https://github.com/undisputed-deb/AI-Meeting-Notes",
       description: "Increased team productivity by 40% by engineering a full-stack dashboard that transcribes audio and uses Google Gemini to generate executive summaries and sentiment analysis, converting raw conversations into actionable intelligence.",
