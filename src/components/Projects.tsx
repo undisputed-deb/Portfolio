@@ -31,6 +31,20 @@ const Projects = () => {
       metrics: "70% retrieval accuracy • 80% less generic outputs"
     },
     {
+      title: "Food Waste Management System",
+      githubUrl: "https://github.com/undisputed-deb/Food-Waste-Management",
+      description: "Full-stack sustainability platform combating food waste through intelligent tracking and management, processing waste from generation to composting with real-time analytics and multi-role access control.",
+      tech: ["Spring Boot", "Vue.js", "PostgreSQL", "Docker", "Java", "JWT", "Spring Security"],
+      features: [
+        "Built enterprise-grade REST API with Spring Boot and PostgreSQL handling donor tracking, waste items, collection centers, and processing facilities with JWT authentication",
+        "Implemented role-based access control (RBAC) system managing ADMIN, DONOR, OPERATOR, and PROCESSOR permissions with BCrypt password encryption and Spring Security",
+        "Designed responsive Vue.js frontend with glassmorphism UI, real-time dashboard analytics, and environmental impact metrics (CO₂, water, meals saved calculations)",
+        "Containerized full-stack application using Docker and Docker Compose for PostgreSQL database, reducing deployment complexity and ensuring environment consistency",
+        "Architected RESTful endpoints with Spring Data JPA for CRUD operations, global exception handling, and automated schema generation supporting scalable waste tracking"
+      ],
+      metrics: "Multi-role RBAC • Real-time analytics • Docker deployment"
+    },
+    {
       title: "AI Meeting Notes Automation",
       githubUrl: "https://github.com/undisputed-deb/AI-Meeting-Notes",
       description: "Increased team productivity by 40% by engineering a full-stack dashboard that transcribes audio and uses Google Gemini to generate executive summaries and sentiment analysis, converting raw conversations into actionable intelligence.",
@@ -45,18 +59,18 @@ const Projects = () => {
       metrics: "40% productivity boost • 95% faster insights"
     },
     {
-      title: "D.S Tutoring Center Exam App", 
-      githubUrl: "https://github.com/undisputed-deb/D.S-Tutoring-Exam-App",
-      description: "Decreased administrative overhead by 90% by developing a secure, mobile-first web app that automates quiz generation, real-time grading, and result notifications via email.",
-      tech: ["React", "TypeScript", "Flask", "Tailwind CSS"],
+      title: "D.S Tutoring Center",
+      githubUrl: "https://github.com/undisputed-deb/D.S-Tutoring-Center",
+      description: "Full-stack tutoring platform serving 85+ students with automated grading dashboards, real-time progress tracking, and modern glassmorphism UI, reducing administrative overhead by 80%.",
+      tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel", "SEO", "Google Analytics"],
       features: [
-        "90% reduction in administrative overhead by developing secure mobile-first web app automating quiz generation, real-time grading, and email notifications",
-        "40% boost in student engagement by implementing rich text quiz interface with countdown timer, auto-submission, and gamified testing environment", 
-        "70% faster content creation process through custom rich text editor in React enabling rapid creation and formatting of diverse quiz questions",
-        "Streamlined Excel-compatible result storage with automated email delivery system reducing manual grading time from hours to minutes",
-        "Advanced security features with user authentication, session management, and encrypted data transmission for student privacy protection"
+        "80% reduction in administrative workload through automated grading dashboards with real-time student progress tracking and performance analytics",
+        "466% enrollment growth (15 to 85+ students) by building responsive, SEO-optimized platform with Google Search Console integration and custom domain deployment",
+        "Modern glassmorphism UI with Framer Motion animations featuring parallax scrolling, 3D card effects, and smooth page transitions for premium user experience",
+        "Integrated contact forms, testimonial management system, and automated scheduling features streamlining student onboarding and communication",
+        "Mobile-first responsive design with dynamic gradient backgrounds, custom animations, and accessibility-compliant components achieving 95+ Lighthouse score"
       ],
-      metrics: "90% admin time saved • 40% engagement boost"
+      metrics: "85+ students • 80% less admin work • 466% growth"
     },
     {
       title: "AI Resume Analyzer",

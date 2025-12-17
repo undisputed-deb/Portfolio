@@ -8,10 +8,10 @@ const Hero = () => {
 
   const titles = [
     'Computer Science Student at CCNY',
-    'Web Accessibility & Digital Systems Intern @Baxter St. Camera Club',
-    'Data Engineering Intern @Thrift Label(Blackstone)',
-    'Software Developer',
-    'Chief Technical Officer @ D.S Tutoring Center'
+    'SWE Intern spring/summer 2026 @Mutual of Omaha',
+    'Prev Data Engineering Intern @Thrift Label(Blackstone)',
+    'Prev Web Accessibility & Digital Systems Intern @Baxter St. Camera Club',
+    'Founder & Chief Technical Officer @ D.S Tutoring Center'
   ];
 
   useEffect(() => {

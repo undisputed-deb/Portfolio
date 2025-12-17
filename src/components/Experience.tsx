@@ -96,10 +96,10 @@ const Experience = () => {
       location: "Bronx, NY",
       period: "March 2024 – Present",
       highlights: [
-        "Build automated grading dashboards and live progress tracking for 120+ students, reducing administrative workload by 80%",
-        "Develop exam management systems and student portals for 7 staff members, streamlining registration, scheduling, and results communication",
-        "Scale operations with standardized curriculum frameworks and scheduling systems, generating $25K+ revenue in 18 months while maintaining a 95% pass rate",
-        "Expand tutoring services to 100+ active students across SAT, Regents, and AP subjects while training 5 instructors on digital tools, achieving 60% enrollment growth and 30% satisfaction improvement"
+        "Designed, developed, and deployed dstutoringcenter.company using React, TypeScript, Tailwind CSS, and Framer Motion—featuring automated grading dashboards, real-time student analytics, modern glassmorphism UI, and Google Search Console integration, serving 85+ students and reducing administrative overhead by 80%",
+        "Built REST API-integrated quiz management system with automated scheduling, instant results delivery, and student portal functionality—improving operational efficiency by 65%",
+        "Architected scalable curriculum and scheduling systems generating $35K+ revenue in 18 months while maintaining 95% student pass rate and 98% on-time delivery",
+        "Scaled tutoring operations 466% (15 to 85+ students) across SAT, SHSAT, Regents, and AP programs, trained 5 instructors on digital tools, achieving 60% enrollment growth and 30% satisfaction improvement"
       ],
       techStack: {
         "Full-Stack Development": [

@@ -6,17 +6,17 @@ const QuickFacts = () => {
     {
       icon: <GraduationCap size={24} />,
       text: "Computer Science @ CCNY",
-      subtext: "Full-Stack Developer"
+      subtext: "Software Engineer"
     },
     {
       icon: <Code size={24} />,
-      text: "AI + Machine Learning Engineer", 
-      subtext: "Python • React • TypeScript"
+      text: "Backend Engineer",
+      subtext: "Java • Spring Boot • TypeScript • Vue.js"
     },
     {
       icon: <Briefcase size={24} />,
-      text: "Web Accessibility Intern",
-      subtext: "Baxter St. Camera Club"
+      text: "Software Engineering Intern",
+      subtext: "Mutual of Omaha"
     },
     {
       icon: <Trophy size={24} />,
@@ -30,8 +30,8 @@ const QuickFacts = () => {
     },
     {
       icon: <Star size={24} />,
-      text: "$25K+ Revenue Generated",
-      subtext: "120+ Students Tutored"
+      text: "$35K+ Revenue Generated",
+      subtext: "85+ Students Tutored"
     }
   ];
 

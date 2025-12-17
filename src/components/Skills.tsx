@@ -6,22 +6,55 @@ const Skills = () => {
       title: "Languages",
       skills: [
         { name: "Python", level: 95 },
+        { name: "Java", level: 92 },
+        { name: "TypeScript", level: 90 },
         { name: "JavaScript", level: 90 },
-        { name: "TypeScript", level: 85 },
         { name: "SQL", level: 88 },
-        { name: "C++", level: 80 },
-        { name: "HTML/CSS", level: 92 }
+        { name: "C++", level: 80 }
       ]
     },
     {
-      title: "Frameworks & Tools",
+      title: "Backend & Frameworks",
       skills: [
-        { name: "React", level: 90 },
+        { name: "Spring Boot", level: 90 },
         { name: "Flask", level: 92 },
         { name: "Django", level: 85 },
+        { name: "Node.js", level: 85 },
+        { name: "REST APIs", level: 92 },
+        { name: "JWT Auth", level: 88 }
+      ]
+    },
+    {
+      title: "Frontend Development",
+      skills: [
+        { name: "React", level: 92 },
+        { name: "Vue.js", level: 88 },
         { name: "Next.js", level: 88 },
-        { name: "Firebase", level: 80 },
-        { name: "Git", level: 88 }
+        { name: "Tailwind CSS", level: 90 },
+        { name: "TypeScript", level: 90 },
+        { name: "Framer Motion", level: 85 }
+      ]
+    },
+    {
+      title: "Databases & Cloud",
+      skills: [
+        { name: "PostgreSQL", level: 90 },
+        { name: "MongoDB", level: 88 },
+        { name: "Supabase", level: 88 },
+        { name: "Firebase", level: 82 },
+        { name: "Google Cloud", level: 82 },
+        { name: "AWS", level: 80 }
+      ]
+    },
+    {
+      title: "DevOps & Tools",
+      skills: [
+        { name: "Docker", level: 88 },
+        { name: "Git/GitHub", level: 92 },
+        { name: "CI/CD Pipelines", level: 85 },
+        { name: "Maven", level: 85 },
+        { name: "Vite", level: 88 },
+        { name: "Linux", level: 85 }
       ]
     },
     {
@@ -29,43 +62,32 @@ const Skills = () => {
       skills: [
         { name: "scikit-learn", level: 92 },
         { name: "XGBoost", level: 88 },
-        { name: "Google Gemini AI", level: 85 },
+        { name: "Google Gemini AI", level: 88 },
         { name: "NLP", level: 88 },
-        { name: "SMOTE", level: 85 },
-        { name: "Ensemble Methods", level: 90 }
+        { name: "RAG Systems", level: 85 },
+        { name: "Vector DBs", level: 85 }
       ]
     },
     {
-      title: "Data & Cloud",
+      title: "Data Engineering",
       skills: [
-        { name: "Data Engineering", level: 95 },
-        { name: "Web Scraping", level: 92 },
-        { name: "MongoDB", level: 85 },
-        { name: "Google Cloud", level: 82 },
-        { name: "Pandas", level: 90 },
-        { name: "Matplotlib", level: 85 }
+        { name: "ETL Pipelines", level: 92 },
+        { name: "Pandas", level: 92 },
+        { name: "Web Scraping", level: 90 },
+        { name: "Algolia Search", level: 85 },
+        { name: "Data Analysis", level: 90 },
+        { name: "PyTest", level: 88 }
       ]
     },
     {
-      title: "Development & DevOps",
+      title: "Soft Skills",
       skills: [
-        { name: "Full-stack Dev", level: 92 },
-        { name: "REST APIs", level: 87 },
-        { name: "CI/CD Pipelines", level: 85 },
-        { name: "PyTest", level: 88 },
-        { name: "Selenium", level: 85 },
-        { name: "Docker", level: 80 }
-      ]
-    },
-    {
-      title: "Business & Leadership",
-      skills: [
-        { name: "Entrepreneurship", level: 95 },
-        { name: "Team Leadership", level: 90 },
-        { name: "Project Management", level: 88 },
-        { name: "Business Analysis", level: 85 },
-        { name: "Client Relations", level: 92 },
-        { name: "Process Optimization", level: 90 }
+        { name: "Problem Solving", level: 95 },
+        { name: "Team Collaboration", level: 92 },
+        { name: "Communication", level: 90 },
+        { name: "Leadership", level: 90 },
+        { name: "Time Management", level: 92 },
+        { name: "Adaptability", level: 95 }
       ]
     }
   ];
