@@ -17,7 +17,7 @@ const About = () => {
               I'll be joining <span className="text-cyan-400 font-semibold">Mutual of Omaha as a Software Engineering Intern</span> for Spring/Summer 2026.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I work across the stack—building backend APIs with <span className="text-cyan-400 font-semibold">Spring Boot and Flask</span>,
+              I work across the stack building backend APIs with <span className="text-cyan-400 font-semibold">Spring Boot and Flask</span>,
               designing frontends with <span className="text-purple-400 font-semibold">React and Vue.js</span>, and deploying with
               <span className="text-cyan-400 font-semibold"> Docker and PostgreSQL</span>. My recent projects include a food waste management platform
               with JWT authentication and a fraud detection system using <span className="text-purple-400 font-semibold">Python, XGBoost, and scikit-learn</span>
@@ -30,7 +30,7 @@ const About = () => {
               I built from scratch.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I enjoy solving real problems with code—whether that's stopping fraud, reducing food waste, or helping students learn.
+              I enjoy solving real problems with code, whether that's stopping fraud, reducing food waste, or helping students learn.
               Always looking for opportunities to build systems that scale and make an impact.
             </p>
           </div>
