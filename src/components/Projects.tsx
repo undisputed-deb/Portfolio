@@ -32,7 +32,7 @@ const Projects = () => {
     },
     {
       title: "PromptPower - AI Prompt Optimizer",
-      githubUrl: "https://github.com/undisputed-deb/PromptPower",
+      githubUrl: "https://prompt-power.vercel.app/",
       description: "Production-ready prompt enhancement tool transforming basic AI prompts into optimized, detailed versions for ChatGPT, Claude, and Gemini with enterprise-grade security and rate limiting.",
       tech: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Google Gemini API"],
       features: [
@@ -74,7 +74,7 @@ const Projects = () => {
     },
     {
       title: "D.S Tutoring Center",
-      githubUrl: "https://github.com/undisputed-deb/D.S-Tutoring-Center",
+      githubUrl: "https://dstutoringcenter.company/",
       description: "Full-stack tutoring platform serving 85+ students with automated grading dashboards, real-time progress tracking, and modern glassmorphism UI, reducing administrative overhead by 80%.",
       tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel", "SEO", "Google Analytics"],
       features: [
