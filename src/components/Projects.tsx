@@ -31,6 +31,20 @@ const Projects = () => {
       metrics: "70% retrieval accuracy • 80% less generic outputs"
     },
     {
+      title: "PromptPower - AI Prompt Optimizer",
+      githubUrl: "https://github.com/undisputed-deb/PromptPower",
+      description: "Production-ready prompt enhancement tool transforming basic AI prompts into optimized, detailed versions for ChatGPT, Claude, and Gemini with enterprise-grade security and rate limiting.",
+      tech: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Google Gemini API"],
+      features: [
+        "Built full-stack Next.js application with API routes integrating Google Gemini AI for intelligent prompt refinement and optimization",
+        "Implemented production-ready security with IP-based rate limiting (10 req/min), XSS prevention, server-only API key storage, and CORS restrictions",
+        "Designed dark-themed UI with persistent browser storage maintaining last 5 optimized prompts across sessions with one-click copy functionality",
+        "Keyboard shortcuts (Ctrl/Cmd+Enter) for rapid optimization workflow and smooth animations enhancing user experience and productivity",
+        "Server and client-side input validation with generic error messaging preventing information exposure and ensuring secure prompt processing"
+      ],
+      metrics: "Rate-limited API • XSS protection • Persistent storage"
+    },
+    {
       title: "Food Waste Management System",
       githubUrl: "https://github.com/undisputed-deb/Food-Waste-Management",
       description: "Full-stack sustainability platform combating food waste through intelligent tracking and management, processing waste from generation to composting with real-time analytics and multi-role access control.",
@@ -85,20 +99,6 @@ const Projects = () => {
         "Interactive dashboard with bounce-in scorecards, real-time analysis updates, and comprehensive enhancement recommendations for applicants"
       ],
       metrics: "95% accuracy • 60% faster screening"
-    },
-    {
-      title: "Collaborative Design Studio",
-      githubUrl: "https://sketch-together.netlify.app/",
-      description: "Increased user engagement by 40% by developing a Next.js/Supabase community forum with 13+ features including post creation/editing, comments, upvotes, search/sort, tagging, responsive dark-mode UI, and real-time updates.",
-      tech: ["TypeScript", "Next.js", "Supabase", "Tailwind CSS"],
-      features: [
-        "40% increase in user engagement by developing Next.js/Supabase community forum with 13+ comprehensive features for startup collaboration",
-        "Real-time updates and seamless collaboration through post creation/editing, threaded comments, upvote system, and live notification system",
-        "Advanced search and tagging system with sorting capabilities, category filters, and trending content discovery for enhanced user experience",
-        "Responsive dark-mode interface with mobile-optimized design ensuring consistent experience across all devices and screen sizes",
-        "Scalable architecture with Supabase backend providing real-time database synchronization, user authentication, and secure data management"
-      ],
-      metrics: "40% engagement boost • 13+ features"
     }
   ];
 
