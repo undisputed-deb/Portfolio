@@ -8,50 +8,32 @@ const Experience = () => {
       location: "Manhattan, NY",
       period: "June 2025 – August 2025",
       highlights: [
-        "Built custom web scrapers for e-commerce data extraction, automated data cleaning processes, and deployed scalable pipelines with CI/CD workflows transforming raw web data into business-ready insights",
-        "Developed 15+ Scrapy spiders processing 10K+ product listings daily, accelerating backend performance by 25%",
+        "Built custom web scrapers for e-commerce data extraction, automated data cleaning processes, and deployed scalable pipelines",
+        "Developed 15+ Scrapy spiders processing 10K+ product listings daily with 25% backend performance acceleration",
         "Built automated data cleaning workflows reducing inconsistencies by 85% and ensuring 99.7% data accuracy",
-        "Restructured JSON architecture cutting backend-to-frontend latency by 35% for 10K+ daily users",
-        "Integrated PMWeb dashboards eliminating 16 hours/week manual reporting for 3 cross-functional teams",
-        "Implemented PyTest/Selenium CI/CD workflows achieving 30% improvement in defect detection rates",
+        "Restructured JSON architecture reducing latency by 35% for 10K+ daily users",
+        "Integrated PMWeb dashboards eliminating 16 hours/week manual reporting",
+        "Implemented PyTest/Selenium CI/CD workflows improving defect detection by 30%",
         "Architected Firebase/Google Cloud pipelines supporting 300% increase in data processing capacity"
       ],
       techStack: {
         "Languages & Core Technologies": [
-          "Python",
-          "SQL", 
-          "JavaScript/TypeScript"
+          "Python", "SQL", "JavaScript/TypeScript"
         ],
         "Web Scraping & Data Extraction": [
-          "Scrapy (custom spiders)",
-          "BeautifulSoup",
-          "Requests",
-          "Selenium",
-          "Regular Expressions (Regex)",
-          "Playwright"
+          "Scrapy", "BeautifulSoup", "Requests", "Selenium", "Playwright"
         ],
         "Data Processing & Analysis": [
-          "Pandas",
-          "NumPy",
-          "JSON"
+          "Pandas", "NumPy", "JSON"
         ],
         "Testing & Quality Assurance": [
-          "PyTest",
-          "Selenium WebDriver"
+          "PyTest", "Selenium WebDriver"
         ],
         "Cloud & Database": [
-          "Google Cloud Platform",
-          "MongoDB Atlas",
-          "Algolia"
+          "Google Cloud Platform", "MongoDB Atlas", "Algolia"
         ],
         "DevOps & Integration": [
-          "Git/GitHub",
-          "CI/CD Pipelines",
-          "PMWeb"
-        ],
-        "Data Formats & Storage": [
-          "JSON",
-          "CSV"
+          "Git/GitHub", "CI/CD Pipelines"
         ]
       }
     },
@@ -61,13 +43,13 @@ const Experience = () => {
       location: "Manhattan, NY", 
       period: "August 2025 – Present",
       highlights: [
-        "Implement WCAG 2.1 AA compliance standards and create automated alt-text generation for 500+ digital gallery assets, improving accessibility coverage by 85%",
-        "Build content management workflows for multimedia archives, implementing video transcription APIs and digital asset organization using database normalization",
+        "Implemented WCAG 2.1 AA compliance improving accessibility coverage by 85% across 500+ digital assets",
+        "Built content management workflows with video transcription APIs and digital asset organization",
         "Engineer structured CRM databases for alumni tracking and partnership management, improving data retrieval efficiency by 60%",
-        "Integrate mobile application features through Bloomberg Connects platform APIs, enhancing user engagement metrics by 45%",
-        "Create digital exhibition platforms including responsive online viewing rooms with cross-browser compatibility and mobile optimization",
+        "Integrated Bloomberg Connects platform APIs enhancing user engagement by 45%",
+        "Created responsive online exhibition platforms with cross-browser compatibility",
         "Design automated documentation systems for event management using workflow automation tools, reducing manual processing time by 70%",
-        "Develop cross-platform content distribution strategies implementing RESTful APIs for multi-channel arts programming delivery"
+        "Developed RESTful APIs for multi-channel arts programming distribution"
       ],
       techStack: {
         "Web Development": [
@@ -96,10 +78,10 @@ const Experience = () => {
       location: "Bronx, NY",
       period: "March 2024 – Present",
       highlights: [
-        "Designed, developed, and deployed dstutoringcenter.company using React, TypeScript, Tailwind CSS, and Framer Motion featuring automated grading dashboards, real-time student analytics, modern glassmorphism UI, and Google Search Console integration, serving 85+ students and reducing administrative overhead by 80%",
-        "Built REST API-integrated quiz management system with automated scheduling, instant results delivery, and student portal functionality improving operational efficiency by 65%",
-        "Architected scalable curriculum and scheduling systems generating $35K+ revenue in 18 months while maintaining 95% student pass rate and 98% on-time delivery",
-        "Scaled tutoring operations 466% (15 to 85+ students) across SAT, SHSAT, Regents, and AP programs, trained 5 instructors on digital tools, achieving 60% enrollment growth and 30% satisfaction improvement"
+        "Designed, developed, and deployed dstutoringcenter.company using React, TypeScript, Tailwind CSS, and Framer Motion featuring automated grading dashboards",
+        "Built REST API-integrated quiz management system with automated scheduling and student portal functionality",
+        "Architected scalable curriculum and scheduling systems generating $35K+ revenue in 18 months while maintaining 95% student pass rate",
+        "Scaled tutoring operations 466% (15 to 85+ students) across SAT, SHSAT, Regents, and AP programs"
       ],
       techStack: {
         "Full-Stack Development": [

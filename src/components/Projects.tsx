@@ -5,98 +5,98 @@ const Projects = () => {
     {
       title: "Credit Card Fraud Detection System",
       githubUrl: "https://github.com/undisputed-deb/Credit-Card-Fraud-Detection-System",
-      description: "Built a comprehensive machine learning system achieving 99.7% accuracy in detecting fraudulent credit card transactions using ensemble methods and advanced algorithms across 284,807 transactions.",
+      description: "Built a comprehensive machine learning system achieving 99.7% accuracy in detecting fraudulent credit card transactions using ensemble methods",
       tech: ["Python", "scikit-learn", "XGBoost", "SMOTE", "Pandas", "Matplotlib"],
       features: [
         "99.7% accuracy across 9 ML models including Random Forest, XGBoost, and Gradient Boosting with ensemble voting classifier",
-        "97% ROC-AUC score achieving 91.8% fraud detection rate while maintaining only 2.4% false positive rate on imbalanced dataset",
-        "Implemented 9 different algorithms with SMOTE balancing, cross-validation, and hyperparameter optimization for robust performance",
-        "Real-time prediction capability processing transactions in under 2 seconds with automated model monitoring and drift detection",
-        "Comprehensive business impact analysis showing $6,570 savings per 100 fraud attempts with detailed cost-benefit calculations"
+        "97% ROC-AUC score achieving 91.8% fraud detection rate while maintaining only 2.4% false positive rate",
+        "Implemented 9 different algorithms with SMOTE balancing, cross-validation, and hyperparameter optimization",
+        "Real-time prediction capability processing transactions in under 2 seconds with automated model monitoring",
+        "$6,570 savings per 100 fraud attempts with detailed cost-benefit calculations"
       ],
       metrics: "99.7% accuracy • 91% detection rate"
     },
     {
       title: "IceBrAIker - AI RAG Project",
       githubUrl: "https://deb-icebraiker.netlify.app/",
-      description: "Built Retrieval-Augmented Generation pipeline achieving 70% improved context retrieval accuracy using Gemini, Tavily API, and Supabase/pgvector for tone-aware AI icebreaker generation.",
+      description: "Built Retrieval-Augmented Generation pipeline achieving 70% improved context retrieval accuracy using Gemini, Tavily API, and Supabase/pgvector",
       tech: ["React", "TypeScript", "Supabase", "Gemini", "Tavily API", "pgvector"],
       features: [
-        "70% improved context retrieval accuracy through Retrieval-Augmented Generation pipeline integrating Gemini AI with Tavily search API",
-        "80% reduction in generic outputs by implementing tone-aware AI icebreaker generation with advanced LLM optimization techniques",
-        "45% increase in user engagement through React + Tailwind UI featuring animated backgrounds and responsive design patterns",
-        "40% query latency reduction by deploying Supabase Edge Functions with optimized RESTful API integration and pgvector embeddings",
-        "Scalable vector database architecture supporting real-time semantic search and contextual conversation starter recommendations"
+        "70% improved context retrieval accuracy through RAG pipeline integrating Gemini AI with Tavily search API",
+        "80% reduction in generic outputs by implementing tone-aware AI icebreaker generation",
+        "45% increase in user engagement through React + Tailwind UI featuring animated backgrounds",
+        "40% query latency reduction by deploying Supabase Edge Functions with optimized RESTful API integration",
+        "Scalable vector database architecture supporting real-time semantic search"
       ],
       metrics: "70% retrieval accuracy • 80% less generic outputs"
     },
     {
       title: "PromptPower - AI Prompt Optimizer",
       githubUrl: "https://prompt-power.vercel.app/",
-      description: "Production-ready prompt enhancement tool transforming basic AI prompts into optimized, detailed versions for ChatGPT, Claude, and Gemini with enterprise-grade security and rate limiting.",
+      description: "Production-ready prompt enhancement tool transforming basic AI prompts into optimized, detailed versions for ChatGPT, Claude, and Gemini",
       tech: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Google Gemini API"],
       features: [
-        "Built full-stack Next.js application with API routes integrating Google Gemini AI for intelligent prompt refinement and optimization",
-        "Implemented production-ready security with IP-based rate limiting (10 req/min), XSS prevention, server-only API key storage, and CORS restrictions",
-        "Designed dark-themed UI with persistent browser storage maintaining last 5 optimized prompts across sessions with one-click copy functionality",
-        "Keyboard shortcuts (Ctrl/Cmd+Enter) for rapid optimization workflow and smooth animations enhancing user experience and productivity",
-        "Server and client-side input validation with generic error messaging preventing information exposure and ensuring secure prompt processing"
+        "Full-stack Next.js application with API routes integrating Google Gemini AI for intelligent prompt refinement",
+        "Production-ready security with IP-based rate limiting (10 req/min), XSS prevention, and server-only API key storage",
+        "Dark-themed UI with persistent browser storage maintaining last 5 optimized prompts across sessions",
+        "Keyboard shortcuts (Ctrl/Cmd+Enter) for rapid optimization workflow",
+        "Server and client-side input validation with generic error messaging"
       ],
       metrics: "Rate-limited API • XSS protection • Persistent storage"
     },
     {
       title: "Food Waste Management System",
       githubUrl: "https://github.com/undisputed-deb/Food-Waste-Management",
-      description: "Full-stack sustainability platform combating food waste through intelligent tracking and management, processing waste from generation to composting with real-time analytics and multi-role access control.",
+      description: "Full-stack sustainability platform combating food waste through intelligent tracking and management, processing waste from generation to composting",
       tech: ["Spring Boot", "Vue.js", "PostgreSQL", "Docker", "Java", "JWT", "Spring Security"],
       features: [
-        "Built enterprise-grade REST API with Spring Boot and PostgreSQL handling donor tracking, waste items, collection centers, and processing facilities with JWT authentication",
-        "Implemented role-based access control (RBAC) system managing ADMIN, DONOR, OPERATOR, and PROCESSOR permissions with BCrypt password encryption and Spring Security",
-        "Designed responsive Vue.js frontend with glassmorphism UI, real-time dashboard analytics, and environmental impact metrics (CO₂, water, meals saved calculations)",
-        "Containerized full-stack application using Docker and Docker Compose for PostgreSQL database, reducing deployment complexity and ensuring environment consistency",
-        "Architected RESTful endpoints with Spring Data JPA for CRUD operations, global exception handling, and automated schema generation supporting scalable waste tracking"
+        "Enterprise-grade REST API with Spring Boot and PostgreSQL handling donor tracking, waste items, collection centers, and processing facilities",
+        "Role-based access control (RBAC) system managing ADMIN, DONOR, OPERATOR, and PROCESSOR permissions",
+        "Responsive Vue.js frontend with glassmorphism UI and real-time dashboard analytics",
+        "Containerized full-stack application using Docker and Docker Compose",
+        "RESTful endpoints with Spring Data JPA for CRUD operations and global exception handling"
       ],
       metrics: "Multi-role RBAC • Real-time analytics • Docker deployment"
     },
     {
       title: "AI Meeting Notes Automation",
       githubUrl: "https://github.com/undisputed-deb/AI-Meeting-Notes",
-      description: "Increased team productivity by 40% by engineering a full-stack dashboard that transcribes audio and uses Google Gemini to generate executive summaries and sentiment analysis, converting raw conversations into actionable intelligence.",
+      description: "Increased team productivity by 40% by engineering a full-stack dashboard that transcribes audio and uses Google Gemini to generate executive summaries",
       tech: ["Python", "React", "Google Gemini AI", "MongoDB", "TypeScript"],
       features: [
-        "40% increase in team productivity by automating 85% of manual meeting documentation tasks with 92% accuracy across 50+ hours of audio",
-        "95% reduction in time-to-share insights through architected responsive React/TypeScript frontend with one-click PDF report download feature", 
-        "99.9% data reliability by implementing scalable MongoDB Atlas schema to securely store and index meeting transcripts, summaries, and sentiment scores",
-        "Advanced sentiment analysis integration with intelligent summary generation extracting key action items and decision points automatically",
-        "Real-time transcription processing with automated speaker identification and timestamp synchronization for enhanced meeting tracking"
+        "40% increase in team productivity by automating 85% of manual meeting documentation tasks with 92% accuracy",
+        "95% reduction in time-to-share insights through responsive React/TypeScript frontend with one-click PDF report download",
+        "99.9% data reliability by implementing scalable MongoDB Atlas schema",
+        "Advanced sentiment analysis integration with intelligent summary generation",
+        "Real-time transcription processing with automated speaker identification"
       ],
       metrics: "40% productivity boost • 95% faster insights"
     },
     {
       title: "D.S Tutoring Center",
       githubUrl: "https://dstutoringcenter.company/",
-      description: "Full-stack tutoring platform serving 85+ students with automated grading dashboards, real-time progress tracking, and modern glassmorphism UI, reducing administrative overhead by 80%.",
+      description: "Full-stack tutoring platform serving 85+ students with automated grading dashboards, real-time progress tracking, and modern glassmorphism UI",
       tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel", "SEO", "Google Analytics"],
       features: [
-        "80% reduction in administrative workload through automated grading dashboards with real-time student progress tracking and performance analytics",
-        "466% enrollment growth (15 to 85+ students) by building responsive, SEO-optimized platform with Google Search Console integration and custom domain deployment",
-        "Modern glassmorphism UI with Framer Motion animations featuring parallax scrolling, 3D card effects, and smooth page transitions for premium user experience",
-        "Integrated contact forms, testimonial management system, and automated scheduling features streamlining student onboarding and communication",
-        "Mobile-first responsive design with dynamic gradient backgrounds, custom animations, and accessibility-compliant components achieving 95+ Lighthouse score"
+        "80% reduction in administrative workload through automated grading dashboards with real-time student progress tracking",
+        "466% enrollment growth (15 to 85+ students) by building responsive, SEO-optimized platform",
+        "Modern glassmorphism UI with Framer Motion animations featuring parallax scrolling and 3D card effects",
+        "Integrated contact forms, testimonial management system, and automated scheduling features",
+        "Mobile-first responsive design achieving 95+ Lighthouse score"
       ],
       metrics: "85+ students • 80% less admin work • 466% growth"
     },
     {
       title: "AI Resume Analyzer",
       githubUrl: "https://github.com/undisputed-deb/AI-Resume-Analyzer",
-      description: "Optimized candidate evaluation by achieving 95% accuracy in resume analysis using advanced NLP algorithms for ATS compatibility and keyword matching.",
+      description: "Optimized candidate evaluation by achieving 95% accuracy in resume analysis using advanced NLP algorithms for ATS compatibility",
       tech: ["Flask", "Python", "NLP", "Google Gemini AI", "Bootstrap", "jQuery"],
       features: [
-        "95% accuracy in resume evaluation using advanced NLP algorithms for ATS compatibility scoring and keyword matching analysis",
-        "60% reduction in recruiter screening time by designing dynamic Flask dashboard providing instant visual scoring with tailored feedback",
-        "35% improvement in candidate match quality by integrating personalized keyword suggestions to better align resumes with target roles", 
-        "Automated ATS compatibility assessment with detailed scoring breakdown identifying formatting issues and optimization opportunities",
-        "Interactive dashboard with bounce-in scorecards, real-time analysis updates, and comprehensive enhancement recommendations for applicants"
+        "95% accuracy in resume evaluation using advanced NLP algorithms for ATS compatibility scoring",
+        "60% reduction in recruiter screening time by designing dynamic Flask dashboard",
+        "35% improvement in candidate match quality by integrating personalized keyword suggestions",
+        "Automated ATS compatibility assessment with detailed scoring breakdown",
+        "Interactive dashboard with bounce-in scorecards and real-time analysis updates"
       ],
       metrics: "95% accuracy • 60% faster screening"
     }

@@ -145,6 +145,39 @@ const Contact = () => {
             <span className="text-cyan-400 font-semibold">Let's make it happen! 🚀</span>
           </div>
         </div>
+
+        {/* Footer */}
+        <footer className="mt-20 pt-8 border-t border-gray-700/50">
+          <div className="flex flex-col items-center gap-6">
+            <div className="flex items-center gap-6">
+              <a
+                href="https://linkedin.com/in/debashrestha-nandi-a789a1340"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="mailto:deb86011@gmail.com"
+                className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
+              >
+                Email
+              </a>
+              <a
+                href="https://github.com/undisputed-deb"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-cyan-400 transition-colors duration-300"
+              >
+                GitHub
+              </a>
+            </div>
+            <p className="text-gray-400 text-sm">
+              Made with <span className="text-red-500">❤️</span> by Deb
+            </p>
+          </div>
+        </footer>
       </div>
     </section>
   );
